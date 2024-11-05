@@ -7,7 +7,6 @@ const BookDetails = () => {
 
   return (
     <div>
-      <h2>Books by {authorName}</h2>
       <BookList authorName={authorName} />
     </div>
   );
